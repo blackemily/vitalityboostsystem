@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelectorAll(".mobile-links a").forEach(function(a){a.addEventListener("click",function(){var d=a.closest("details");if(d)d.open=false;});});});
